@@ -1,3 +1,4 @@
+import { useState } from "react";
 import fetchMovies from "./services/movieService";
 import SearchBar from "./components/SearchBar/SearchBar";
 import { Toaster, toast } from "react-hot-toast";
